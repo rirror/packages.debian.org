@@ -345,7 +345,7 @@
 [% FOREACH srcfiles %]
   [% IF loop.first -%]
     <div id="pdownload">
-    <h2>Download [% pkg %]</h2>
+    <h2>[% g('Download %s', pkg) %]</h2>
     
     <table summary="[% g('Download information for the files of this source package') %]">
     <tr><th>[% g('File') %]</th><th>[% g('Size (in kB)') %]</th><th>[% g('MD5 checksum') %]</th></tr>
