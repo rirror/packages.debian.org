@@ -56,7 +56,7 @@ arch_wheezy="amd64 armel armhf i386 ia64 kfreebsd-i386 kfreebsd-amd64 mips mipse
 arch_jessie="amd64 arm64 armel armhf i386 mips mipsel powerpc ppc64el s390x"
 arch_stretch="amd64 arm64 armel armhf i386 mips mipsel mips64el ppc64el s390x"
 arch_buster="${arch_stretch}"
-arch_sid="${arch_stretch} alpha avr32 hppa hurd-i386 ia64 kfreebsd-i386 kfreebsd-amd64 m68k mips64el powerpcspe ppc64 riscv64 s390 sh4 sparc sparc64 x32"
+arch_sid="${arch_stretch} alpha avr32 hppa hurd-i386 ia64 kfreebsd-i386 kfreebsd-amd64 m68k mips64el powerpc powerpcspe ppc64 riscv64 s390 sh4 sparc sparc64 x32"
 arch_experimental="${arch_sid}"
 
 ext_wheezy=gz
